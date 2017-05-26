@@ -68,6 +68,7 @@ public class Pyramid implements SimpleRenderer.Obj {
         // front
         gl.glNormal3f(0, 1, 1);
         gl.glDrawArrays(GL10.GL_TRIANGLES, 13, 3);
+
     }
 
     @Override
